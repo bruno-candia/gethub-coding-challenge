@@ -1,5 +1,13 @@
+import Head from 'next/head'
+ 
 export default function Home() {
   return (
-    <h1>GetHub Coding Challenge</h1>
+    <>
+      <Head>
+        <title>GetHub Play</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
+      <h1>GetHub Coding Challenge</h1>
+    </>
   )
 }
