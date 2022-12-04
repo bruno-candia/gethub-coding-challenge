@@ -1,0 +1,26 @@
+.contentContainer {
+  max-width: 1120px;
+  margin: 80px auto 0 auto;
+  padding: 0 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hero {
+  max-width: 600px;
+
+  h1 {
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+  }
+
+  p {
+    font: var(--body-regular);
+    color: var(--gray-300);
+    margin-bottom: 24px;
+  }
+
+  
+}

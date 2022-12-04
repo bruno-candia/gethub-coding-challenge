@@ -1,13 +1,13 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-:root{
+:root {
   --font: 'Poppins', sans-serif;
   --title-one: 600 4rem/5rem var(--font);
   --title-two: 600 3rem/3.5rem var(--font);
@@ -113,50 +113,82 @@
   --white-20: #ffffff33;
   --white-10: #ffffff1a;
 
-  --balck-100: #000000;
-  --balck-75: #000000bf;
-  --balck-65: #000000a6;
-  --balck-50: #00000080;
-  --balck-40: #00000066;
-  --balck-30: #0000004d;
-  --balck-20: #00000033;
-  --balck-10: #0000001a;
+  --black-100: #000000;
+  --black-75: #000000bf;
+  --black-65: #000000a6;
+  --black-50: #00000080;
+  --black-40: #00000066;
+  --black-30: #0000004d;
+  --black-20: #00000033;
+  --black-10: #0000001a;
 }
 
-body{
-  background: var(--gray-900) ;
+body {
+  background-color: var(--gray-900);
+  background-image:  url('../../public/images/background.svg');
   color: var(--gray-50)
 }
 
-body, input, textarea, select, button {
+body,
+input,
+textarea,
+select,
+button {
   font: var(--body-regular);
   -webkit-font-smoothing: antialised;
 }
 
-html{
-  @media(max-with: 1080px){
+
+h1 {
+  font: var(--title-one);
+}
+
+h2 {
+  font: var(--title-two);
+}
+
+h3 {
+  font: var(--title-three);
+}
+
+h4 {
+  font: var(--title-four);
+}
+
+h5 {
+  font: var(--title-five);
+}
+
+h6 {
+  font: var(--title-six);
+}
+
+
+html {
+  @media(max-with: 1080px) {
     font-size: 93.75%;
   }
-  
-  @media(max-with: 720){
+
+  @media(max-with: 720) {
     font-size: 87.5%;
   }
 }
 
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
 
-button{
+button {
   cursor: pointer;
 }
 
-[disabled]{
+[disabled] {
   opacity: 0.6;
   cursor: not-allowed;
 }
 
-a{
+a {
   color: inherit;
   text-decoration: none;
-} 
+}
